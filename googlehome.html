@@ -14,13 +14,27 @@
         background-color: transparent;
       }
     input.search {
-    width: 30%;
-    -moz-box-shadow:    2px 2px 2px 1px #ccc;
-    -webkit-box-shadow: 2px 2px 2px 1px #ccc;
-    box-shadow:         2px 2px 2px 1px #ccc;
+    padding:10px;
+    width: 35%;
+    border: 1px solid #C7C7C7;
+    background-size: 2em 2em;
+    background-image: url(http://i.imgur.com/l5S4LZ2.png);
+    background-repeat: no-repeat;
+    background-position: right;
     }
-    input[type="button"] {
+    input.button {
       font-family: "Arial";
+      font-size: 12px;
+      color: grey;
+      border: 1px solid white;
+      margin: 15px;
+      background-color: white;
+      font-weight: 600;
+      padding: 10px;
+    }
+    input.button:hover {
+      color: black;
+      border: 1px solid #C7C7C7;
     }
     a:hover {
       text-decoration: underline;
@@ -70,11 +84,11 @@
       </div>
     </div>
     <div class="center">
-      <img class="lower" src="google_main_img.png"><br>
+      <img class="lower" src="google_main_img.png" width="500"><br>
       <form method="get" action="http://www.google.com/search">
-      <input class="search" type="text" name="q" size="31" length="455" value=""/><br><br>
-      <input type="button" value="Google Search"/>
-      <input type="button" value="I'm Feeling Lucky"/>
+      <input class="search" type="text" name="q" value=""/><br><br>
+      <input class="button" type="submit" value="Google Search"/>
+      <input class="button" type="button" value="I'm Feeling Lucky"/>
       </form>
     </div>
   </body>
