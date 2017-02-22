@@ -1,0 +1,55 @@
+#schoolbus {
+  width: 1200px;
+  position: absolute;
+  left: 0;
+
+}
+#kim {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 40px;
+}
+#lea {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 140px;
+}
+#lily {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 250px;
+}
+#mimi {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 350px;
+}
+#roy {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 450px;
+}
+#bob {
+  position: absolute;
+  width: 90px;
+  top: 45px;
+  left: 550px;
+}
+#joan {
+  position: absolute;
+  width: 100px;
+  top: 45px;
+  left: 650px;
+}
+
+#baby {
+  position: absolute;
+  width: 90px;
+  top: 35px;
+  left: 750px;
+}
