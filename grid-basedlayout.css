@@ -1,0 +1,68 @@
+
+
+.header {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.round {
+  border-radius: 100px;
+  width: 150px;
+  margin: 10px;
+}
+
+.secondrow {
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+.secondrowp {
+  text-align: justify;
+  color: black;
+  padding: 40px;
+}
+
+.about {
+  margin-top: 30px;
+  font-size: 1.25em;
+  display: inline-block;
+  text-align: right;
+}
+.image {
+   position: relative;
+}
+
+.awesome {
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   width: 100%;
+   color: white;
+   font-weight: bolder;
+   font-size: 3em;
+}
+
+.why {
+  text-align: center;
+  margin-top: 10px;
+}
+.water {
+  background-image: url("https://www.healthable.org/wp-content/uploads/2014/09/water.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.why2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #FAFAFA;

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.modal-dialog {
+  position: fixed;
+  margin-left: 35%;
+  margin-top: 20%;
+  border: 0px solid grey;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.modal-header {
+  background: lightgreen;
+  padding: 5px;
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 1.25em;
+  color: grey;
+  font-family: "Arial";
+}
+
+.modal-content {
+  clear: both;
+  padding: 5px;
+  background: white;
+  color: grey;
+  font-family: "Arial";
+}
+
+.modal-buttons {
+  float: right;
+  padding: 4px;
+}
+.opaque {
+  opacity: .25;
+}
