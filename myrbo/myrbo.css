@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+.black-background {
+  background-color: black;
+}
+.slider-size {
+height: 500px; /* This is your slider height */
+}
+.carousel {
+width:100%;
+margin:0 auto; /* center your carousel if other than 100% */
+}
+
+h2, p, h4, h3 {
+  font-family: 'Hind', sans-serif;
+}
+
+.carousel-indicators li {
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.headerright {
+  text-align: right;
+  padding-top: 35px;
+}
+.headerleft {
+  text-align: left;
+}
+.cheryl {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.cornertext {
+  padding: 10px 10px 20px 0px;
+  text-align: justify;
+  clear: both;
+}
+.cornertitle {
+  padding-top: 40px;
+  padding-left: 30px;
+  text-align: center;
+}
+.calendar td, .calendar th {
+    border-right: 1px solid #ddd;
+    padding: 8px;
+}
+
+.calendar tr:nth-child(even){background-color: #f2f2f2;}
+
+.calendar tr:hover {background-color: #ddd;}
+
+.calendar th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+@media (max-width: 993px) {
+  .headerright {
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .headerleft {
+    text-align: center;
+    float: none;
+    margin: auto;
+  }
+  .cheryl {
+    margin-top: -10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  div.cornertext {
+    display: inline-block;
+  }
+}
